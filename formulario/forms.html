@@ -16,7 +16,7 @@
 
         <h1>Dados de Acesso</h1>
 
-        <label for="usuario">usuario</label><br>
+        <label for="usuario">usuario:</label><br>
         <input type="text" id="usuario" name="usuario"><br>
 
         <label for="senha">senha:</label><br>
@@ -24,19 +24,19 @@
 
         <h1>Dados Pessoais</h1>
 
-        <label for="fname">digite seu nome:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+       <h3> <label for="fname">digite seu nome:</label></h3>
+        <input type="text" id="fname" name="fname">
 
-        <label for="endereço">digite seu endereço:</label><br>
+        <h3><label for="endereço">digite seu endereço:</label></h3>
         <input type="text" id="endereço" name="endereço"><br>
 
-        <label for="numero">numero:</label><br>
+        <h3><label for="numero">numero:</label></h3>
         <input type="text" id="numero" name="numero"><br>
 
-        <label for="complemento">complemento:</label><br>
+        <h3><label for="complemento">complemento:</label></h3>
         <input type="text" id="complemento" name="complemento"><br>
 
-        <label for="cidade">cidade:</label><br>
+        <h3><label for="cidade">cidade:</label></h3>
             <input list="cidade" name="cidade">
             <datalist id="cidade">
                 <option value="sorocaba">
@@ -44,10 +44,46 @@
                 <option value="são paulo">
                 <option value="votorantim">
                 <option value="jacarezinho">
-                </datalist>
+             </datalist> <br>
         
+       <h3>  <label for="estado">Estado:</label>
+            <select id="estado" name="estado"></h3>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+            </select> <br>
 
-        <input type="submit" value="enviar">
+     <h3>   <label for="CEP">CEP:</label> 
+        <input type="CEP" id="CEP" name="CEP"><br></h3>
+
+      <h3>  <label for="Genero">Genero:</label> </h3> 
+            <input type="radio" id="Genero" name="Genero" value="Feminino" checked>
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="Genero" name="Genero" value="Masculino" checked>
+            <label for="feminino">Masculino</label><br>
+            <input type="radio" id="Genero" name="Genero" value="Prefiro não dizer" checked>
+            <label for="Prefiro não dizer">Prefiro não dizer</label><br>
+            
+ <h3> <label for="Curso">Curso:</label> </h3>
+            <input type="checkbox" id="Curso" name="Curso" value="ADS">
+            <label for="ADS"> ADS</label><br>
+            <input type="checkbox" id="Curso" name="Curso" value="Jogos">
+            <label for="Jogos">Jogos</label><br>
+            <input type="checkbox" id="Curso" name="Curso" value="Gestão de TI">
+            <label for="Gestão de TI">Gestão de TI</label><br>
+            <input type="checkbox" id="Curso" name="Curso" value="Banco de Dados">
+            <label for="Banco de Dados">Banco de Dados</label><br>
+
+       <h3> <label for="Modelo">Modelo</label> </h3>
+            <input type="radio" id="Modelo" name="Modelo" value="Presencial" checked>
+            <label for="Presencial">Presencial</label><br>
+            <input type="radio" id="Modelo" name="Modelo" value="EAD" checked>
+            <label for="EAD">EAD</label><br>
+            <input type="radio" id="Modelo" name="Modelo" value="Semi Presencial" checked>
+            <label for="Semi Presencial">Semi Presencial</label><br> <br>
+
+        <input type="submit" value="Enviar">
 
     </form>
 </body>
